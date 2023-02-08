@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boilerplate</title>
+</head>
+<body>
+    <h1 style="font-size: 34px; color:red" data-action="click" class="bolder" id="text">Olá mundo!</h1>
+    <h2>Olá mundo!</h2>
+    <h3>Olá mundo!</h3>
+    <h4>Olá mundo!</h4>
+    <h5>Olá mundo!</h5>
+    <h6>Olá mundo!</h6>
+    <p>
+        <em>some wordsLorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Veritatis laboriosam mollitia autem at ab omnis iure quis
+        asperiores inventore eos nam aut iusto officiis deserunt
+        nihil, sequi tempore impedit quae?</em> <strong>fjasdjfiosjfosfoisjfoihsaohfioashifhsd  idahfoiashofih oihaaisdhfoihfo hah fasoihfoi </strong>
+      </p>
+
+      <h2>Shopping List</h2>
+<ul style="list-style: none">
+  <li><a href="https://google.com">Le Wagon</a></li>
+  <li>Butter</li>
+</ul>
+
+<h2>World Cup 2022</h2>
+<ol>
+  <li>Argentina</li>
+  <li>France</li>
+  <li>Croatia</li>
+  <li>Morocco</li>
+</ol>
+    <a href="https://www.lewagon.com" target="_blank" style="text-decoration: none; color: black">
+        Le Wagon
+    </a>
+    <img style="width: 200px; border-radius: 50%;"src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/logo.png" alt="Le Wagon logo">
+    <form>
+        <label for="email">Enter your email:</label>
+        <input type="email" placeholder="email@email.com" required="true">
+        <label for="data">Insert date:</label>
+        <input type="date">
+        <input type="phone" placeholder="(XX)XXXX.XXXX">
+        <label for="data">Enter your password:</label>
+        <input type="password" placeholder="Your password" required="true">
+        <input type="submit" value="Log in">
+    </form>
+</body>
+</html>
